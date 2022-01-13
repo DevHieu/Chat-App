@@ -1,0 +1,63 @@
+.bodyBox {
+  background: #282c34;
+  overflow-y: scroll;
+  height: 80vh;
+}
+.bodyBox::-webkit-scrollbar {
+  width: 0.25rem;
+}
+.bodyBox::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+
+.bodyBox::-webkit-scrollbar-thumb {
+  background: #6649b8;
+}
+ul {
+  margin: 0px;
+  min-height: 32em;
+  padding: 50px 15px;
+}
+li {
+  display: flex;
+  list-style: none;
+}
+.photo {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.wrapper {
+  width: 730px;
+  height: auto;
+  background: #fff;
+}
+.text {
+  max-width: 500px;
+  margin-bottom: 12px;
+  line-height: 24px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  position: relative;
+  color: white;
+  text-align: center;
+  margin: 0px 16px 16px;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+}
+
+.send {
+  flex-direction: row-reverse;
+}
+
+.send .text {
+  background: #0b93f6;
+  align-self: flex-end;
+}
+.received p {
+  background: #fff;
+  color: black;
+}

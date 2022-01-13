@@ -1,0 +1,32 @@
+.loginWrapper {
+  display: block;
+  /* min-height: 100vh; */
+}
+.title {
+  font-size: 50px;
+  display: block;
+}
+button {
+  align-items: center;
+}
+.googleButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  width: 100%;
+  margin: 20px 0px 30px;
+}
+.facebookButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  width: 100%;
+  margin: 20px 0px 30px;
+}
+.loginTitle {
+  padding: 0 20px;
+}
