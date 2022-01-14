@@ -1,4 +1,3 @@
-// import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import Login from "./components/Login/login";
 import ChatBox from "./components/Chat-Box/ChatBox";

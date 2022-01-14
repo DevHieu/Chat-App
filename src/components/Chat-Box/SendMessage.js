@@ -27,20 +27,6 @@ export default function SendMessage({ scroll }) {
 
   return (
     <div className={style.wrapper}>
-      {/* <input
-        value={msg}
-        onChange={(data) => setMsg(data.target.value)}
-        placeholder="Type a message..."
-        type="text"
-        className={style.inputBox}
-      />
-      <p
-        className={style.sendButton}
-        onClick={handleSendMessage}
-        disabled={msg === ""}
-      >
-        send
-      </p> */}
       <form onSubmit={handleSendMessage}>
         <input
           className={style.inputBox}
